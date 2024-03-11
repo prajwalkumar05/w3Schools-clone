@@ -59,3 +59,30 @@ html{
   height: 40px;
   width: 40px;
 }
+
+/* second nav bar */
+
+.second_nav{
+    display: flex;
+    overflow-x: scroll;
+    background-color: #333;
+}
+
+.second_nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .second_nav a:hover {
+    background-color: #555;
+  }
+
+  .second_nav::-webkit-scrollbar {
+    display: none;
+  }
+
