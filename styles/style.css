@@ -86,3 +86,53 @@ html{
     display: none;
   }
 
+/* Section Container sidebar and content area */
+
+  .main_con{
+    display: flex;
+  }
+
+  /* sidebar code */
+
+  .sidebar{
+    height: 85vh;
+    width: 18%;
+    background-color: #E7E9EB;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidebar-header p {
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  
+  .sidebar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background-color: #ddd;
+  }
+  
+  .sidebar a.active {
+    background-color: #4CAF50;
+  }
+
+
+
+  /* mainContent Area */
+
+  .main_section{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+  }
+
