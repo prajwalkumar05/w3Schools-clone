@@ -133,6 +133,54 @@ html{
   .main_section{
     height: 100%;
     width: 100%;
-    background-color: aqua;
   }
 
+  .course_title .heading{
+     font-size: 40px;
+     color: #000;
+     letter-spacing: 1.5px;
+     margin: 25px;
+  }
+
+  .btn_con{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+
+  .btn_back , .btn_next{
+    border-radius: 3px;
+  }
+
+  .content_description{
+    background-color: #D9EEE1;
+    padding: 50px;
+    margin: 20px 0
+  }
+
+  .content_description p{
+    margin: 15px;
+    color: #000;
+    font-weight: 500;
+  }
+
+  .content_description p:nth-child(3){
+    margin-bottom: 30px;
+  }
+
+  .content_description .btn_content{
+    margin-left: 10px;
+    border-radius: 3px;
+  }
+
+
+  /* advertisement section */
+  .advertisement{
+    width: 18%;
+    border-left: 1px solid #ccc;
+  }
+
+  .advertisement p{
+    text-align: center;
+    font-size: 14px;
+  }
