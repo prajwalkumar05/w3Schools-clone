@@ -3,27 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>W3Schools </title>
+    <title>W3Schools</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/logo.png" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/71a19325de.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar">
       <div class="nav_left_links">
-        <img class="logo" src="./assets/icons/512px-W3Schools_logo.svg.png" alt="logo" />
+        <img class="logo" src="./assets/icons/logo.png" alt="logo" />
 
         <div class="links">
-          <a href="#" class="nav_link">Tutorials</a>
-          <a href="#" class="nav_link">Exercises</a>
-          <a href="#" class="nav_link">Certificates</a>
-          <a href="#" class="nav_link">Services</a>
+          <a href="#" class="nav_link"
+            >Tutorials<i class="fa-solid fa-caret-down"></i
+          ></a>
+          <a href="#" class="nav_link"
+            >Exercises <i class="fa-solid fa-caret-down"></i
+          ></a>
+          <a href="#" class="nav_link"
+            >Certificates <i class="fa-solid fa-caret-down"></i
+          ></a>
+          <a href="#" class="nav_link"
+            >Services <i class="fa-solid fa-caret-down"></i
+          ></a>
         </div>
+        <div class="search_field">
+          <input
+            id="search"
+            type="text"
+            class="search_field_input"
+            placeholder="Search..."
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <i class="fa-solid fa-circle-half-stroke"></i>
       </div>
 
-      <div class="btn_con">
-        <a href="#" class="btn btn_signup">Sign Up</a>
-        <a href="#" class="btn btn_signup">Log in</a>
+      <div class="navbar_right_side">
+        <a href="#" class="right_side_items"
+          ><i class="fa-solid fa-bullseye"></i>Set Goals</a
+        >
+        <a href="#" class="right_side_items"
+          ><i class="fa-solid fa-code"></i>Spaces</a
+        >
+        <a href="#" class="right_side_items"
+          ><i class="fa-solid fa-cart-shopping"></i>Get Certified</a
+        >
+        <i class="fa-solid fa-circle-half-stroke"></i>
+        <div class="btn-con">
+          <a href="#" class="btn btn_signup">Sign Up</a>
+          <a href="#" class="btn btn_login">Log in</a>
+        </div>
       </div>
     </nav>
+
+    <!-- SECOND NAVBAR -->
 
     <div class="second_nav">
       <a class="active" href="#">Home</a>
@@ -51,12 +89,15 @@
       <a href="#">Java</a>
     </div>
 
+
     <main class="main_con">
+
+      <!-- SIDEBAR CODE -->
       <div class="sidebar">
         <div class="sidebar-header">
           <p>HTML Tutorials</p>
         </div>
-        <a href="#"  class="sidebar_link active">HTML</a>
+        <a href="#" class="sidebar_link active">HTML</a>
         <a href="#" class="sidebar_link">HTML Introduction</a>
         <a href="#" class="sidebar_link">HTML Editors</a>
         <a href="#" class="sidebar_link">HTML Basic Examples</a>
@@ -78,31 +119,52 @@
         <a href="#" class="sidebar_link">W3Schools.com</a>
       </div>
 
+      <!-- MAIN SECTION CODEEDITOR -> -->
+
       <div class="main_section">
         <div class="course_title">
           <p class="heading">HTML Tutorial</p>
         </div>
 
-        <div class="btn_con">
-          <a href="#" class="btn btn_back">Sign Up</a>
-          <a href="#" class="btn btn_next">Log in</a>
+        <div class="btn_container">
+          <a href="#" class="btn btn_back"
+            ><i class="fa-solid fa-less-than"></i>Sign Up</a
+          >
+          <a href="#" class="btn btn_next"
+            >Next<i class="fa-solid fa-greater-than"></i
+          ></a>
         </div>
 
         <div class="content_description">
-          <p class="content_description_answer">HTML is the standard markup language for Web pages.</p>
-          <p class="content_description_answer">With HTML you can create your own Website.</p>
-          <p class="content_description_answer">HTML is easy to learn - You will enjoy it!</p>
+          <p class="content_description_answer">
+            HTML is the standard markup language for Web pages.
+          </p>
+          <p class="content_description_answer">
+            With HTML you can create your own Website.
+          </p>
+          <p class="content_description_answer">
+            HTML is easy to learn - You will enjoy it!
+          </p>
           <a href="#" class="btn btn_content">Study Our Free HTML Tutorial</a>
         </div>
 
         <div class="course_title">
-          <p class="heading heading-second">Easy Learning with HTML "Try it Yourself"</p>
+          <p class="heading heading-second">
+            Easy Learning with HTML "Try it Yourself"
+          </p>
         </div>
 
         <div class="code_section">
           <div class="code-editor_container">
             <p class="code_section-title">Code</p>
-            <textarea id="code" class="code_editor" placeholder="Write your code here...">
+
+            //CODEEDITOR
+
+            <textarea
+              id="code"
+              class="code_editor"
+              placeholder="Write your code here..."
+            >
 &lt;!DOCTYPE html&gt;
 &lt;head&gt;
 &lt;meta charset="UTF-8"&gt;
@@ -111,7 +173,7 @@
 &lt;/head&gt;
 &lt;body&gt;
         
-&lt;h3&gt;Hello, World!&lt;/h3&gt;
+&lt;h1&gt;Hello, World!&lt;/h1&gt;
 &lt;p&gt;This is my first web page.&lt;/p&gt;
         
 &lt;/body&gt;
@@ -120,6 +182,7 @@
             <button class="btn-run">Run Code</button>
           </div>
 
+          <!-- CODE OUTPUT LAYOUT -->
           <div class="output_con">
             <p class="code_section-title">Output</p>
             <div id="output" class="output"></div>
