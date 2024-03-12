@@ -293,8 +293,12 @@ html {
 
 .content_description .btn_content {
   margin-left: 1rem;
+  padding: 1.2rem 2rem;
+  background-color: #04AA6D;
   border-radius: 3px;
   font-size: 1.6rem;
+  text-decoration: none;
+  color: #fff;
 }
 
 .heading .heading-second {
