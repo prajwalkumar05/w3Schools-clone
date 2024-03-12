@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>W3Schools </title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <nav class="navbar">
       <div class="nav_left_links">
-        <img class="logo" src="./assets/icons/W3schoolsLogo.png" alt="" />
+        <img class="logo" src="./assets/icons/512px-W3Schools_logo.svg.png" alt="logo" />
 
         <div class="links">
           <a href="#" class="nav_link">Tutorials</a>
@@ -54,51 +54,84 @@
     <main class="main_con">
       <div class="sidebar">
         <div class="sidebar-header">
-            <p>HTML Tutorials</p>
-          </div>
-          <a href="#" class="active">HTML</a>
-          <a href="#">CSS</a>
-          <a href="#">JavaScript</a>
-          <a href="#">SQL</a>
-          <a href="#">Python</a>
-          <a href="#">PHP</a>
-          <a href="#">Bootstrap</a>
-          <a href="#">jQuery</a>
-          <a href="#">Angular</a>
-          <a href="#">React</a>
-          <a href="#">Vue.js</a>
-          <a href="#">JS Examples</a>
-          <a href="#">How To</a>
-          <a href="#">W3.CSS</a>
-          <a href="#">Color Picker</a>
-          <a href="#">Bootstrap</a>
-          <a href="#">Icons</a>
-          <a href="#">Graphics</a>
-          <a href="#">Images</a>
-          <a href="#">W3Schools.com</a>
+          <p>HTML Tutorials</p>
+        </div>
+        <a href="#"  class="sidebar_link active">HTML</a>
+        <a href="#" class="sidebar_link">HTML Introduction</a>
+        <a href="#" class="sidebar_link">HTML Editors</a>
+        <a href="#" class="sidebar_link">HTML Basic Examples</a>
+        <a href="#" class="sidebar_link">HTML Elements</a>
+        <a href="#" class="sidebar_link">HTML Attributes</a>
+        <a href="#" class="sidebar_link">HTML Headings</a>
+        <a href="#" class="sidebar_link">HTML Comments</a>
+        <a href="#" class="sidebar_link">HTML Links</a>
+        <a href="#" class="sidebar_link">HTML Images</a>
+        <a href="#" class="sidebar_link">HTML Div</a>
+        <a href="#" class="sidebar_link">HTML Span</a>
+        <a href="#" class="sidebar_link">HTML class</a>
+        <a href="#" class="sidebar_link">HTML id</a>
+        <a href="#" class="sidebar_link">HTML Iframes</a>
+        <a href="#" class="sidebar_link">HTML Div</a>
+        <a href="#" class="sidebar_link">HTML Span</a>
+        <a href="#" class="sidebar_link">HTML class</a>
+        <a href="#" class="sidebar_link">HTML id</a>
+        <a href="#" class="sidebar_link">W3Schools.com</a>
       </div>
 
       <div class="main_section">
         <div class="course_title">
-            <p class="heading">HTML Tutorial </p>
+          <p class="heading">HTML Tutorial</p>
         </div>
 
         <div class="btn_con">
-            <a href="#" class="btn btn_back">Sign Up</a>
-            <a href="#" class="btn btn_next">Log in</a>
+          <a href="#" class="btn btn_back">Sign Up</a>
+          <a href="#" class="btn btn_next">Log in</a>
         </div>
 
         <div class="content_description">
-            <p>HTML is the standard markup language for Web pages.</p>
-            <p>With HTML you can create your own Website.</p>
-            <p>HTML is easy to learn - You will enjoy it!</p>
-            <a href="#" class="btn btn_content">Study Our Free HTML Tutorial</a>
+          <p class="content_description_answer">HTML is the standard markup language for Web pages.</p>
+          <p class="content_description_answer">With HTML you can create your own Website.</p>
+          <p class="content_description_answer">HTML is easy to learn - You will enjoy it!</p>
+          <a href="#" class="btn btn_content">Study Our Free HTML Tutorial</a>
+        </div>
+
+        <div class="course_title">
+          <p class="heading heading-second">Easy Learning with HTML "Try it Yourself"</p>
+        </div>
+
+        <div class="code_section">
+          <div class="code-editor_container">
+            <p class="code_section-title">Code</p>
+            <textarea id="code" class="code_editor" placeholder="Write your code here...">
+&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;My Web Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        
+&lt;h3&gt;Hello, World!&lt;/h3&gt;
+&lt;p&gt;This is my first web page.&lt;/p&gt;
+        
+&lt;/body&gt;
+&lt;/html&gt;
+            </textarea>
+            <button class="btn-run">Run Code</button>
+          </div>
+
+          <div class="output_con">
+            <p class="code_section-title">Output</p>
+            <div id="output" class="output"></div>
+          </div>
         </div>
       </div>
 
-      <div class="advertisement">
-            <p>ADVERTISEMENT</p>
-      </div>
+      <!-- <div class="advertisement">
+        <p>ADVERTISEMENT</p>
+      </div> -->
     </main>
+
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
